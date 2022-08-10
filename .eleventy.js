@@ -106,7 +106,7 @@ module.exports = function (eleventyConfig) {
       layouts: '_templates',
       output: 'docs',
     },
-    pathPrefix: "",
+    pathPrefix: "fd-2022-hackday",
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     templateFormats: [
