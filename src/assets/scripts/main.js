@@ -138,16 +138,9 @@ class NavToNeighbours {
   }
 
   init() {
-    if (!prevItem && !nextItem) return;
-
+    if (typeof prevItem === 'undefined' && typeof nextItem === 'undefined') return;
     this.createNavigation(prevItem, nextItem);
-    //data.previous = (typeof previous != 'undefined' && previous.link) ? previous : false;
-    //data.next = (typeof next != 'undefined' && next.link) ? next : false;
-    //if (data.previous) { generateNavitem("previous", data.previous); }
-    //if (data.next) { generateNavitem("next", data.next); }
   };
-
-
 }
 
 class Accordian { 
